@@ -95,7 +95,7 @@ if __name__ == '__main__':
 
     # Calculate coeficient of friction for each average force value
     gravity = 9.81
-    mass_bar = 490.0
+    mass_bar = .490
     coef_friction_list = []
     for i in range(len(avg_force_list)):
         coef_friction = avg_force_list[i] / (mass_bar * gravity)
