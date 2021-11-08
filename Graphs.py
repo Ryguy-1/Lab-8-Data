@@ -75,6 +75,10 @@ if __name__ == '__main__':
     thirteen_six_avg_force, fifteen_two_avg_force, sixteen_seven_avg_force, 
     seventeen_seven_avg_force, nineteen_avg_force, twenty_one_avg_force, twenty_one_four_avg_force]
 
+    # Make all values positive in average force list
+    for i in range(len(avg_force_list)):
+        avg_force_list[i] = abs(avg_force_list[i])
+
     # Create list of force numbers
     temp_list = [9.9, 11.4, 13.6, 15.2, 16.7, 17.7, 19.0, 20.1, 21.4]
 
